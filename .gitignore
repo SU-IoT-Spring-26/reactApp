@@ -1,0 +1,8 @@
+node_modules/
+.git
+.env
+.env-local
+.env.development
+.expo/
+expo-env.d.ts
+.idea/

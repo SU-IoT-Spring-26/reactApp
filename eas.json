@@ -18,7 +18,11 @@
       "android": {
         "buildType": "app-bundle"
       },
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_CURRENT_READINGS": "https://occupancy-api-b8hcb8hyh7f7aph3.canadacentral-01.azurewebsites.net/api/thermal/current/all",
+        "EXPO_PUBLIC_PREDICTED_READINGS": "https://occupancy-api-b8hcb8hyh7f7aph3.canadacentral-01.azurewebsites.net/api/thermal/predicted/all"
+      }
     }
   },
   "submit": {
